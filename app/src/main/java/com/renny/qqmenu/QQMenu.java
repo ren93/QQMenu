@@ -87,10 +87,10 @@ public class QQMenu extends FrameLayout {
         this.click1 = click1;
         this.normal2 = normal2;
         this.click2 = click2;
-        refreshDrable();
+        refreshDrawable();
     }
 
-    private void refreshDrable() {
+    private void refreshDrawable() {
         if (hasClick) {
             if (click1 != 0)
                 childView1.setBackgroundResource(click1);
@@ -107,7 +107,7 @@ public class QQMenu extends FrameLayout {
 
     public void setHasClick(boolean hasClick) {
         this.hasClick = hasClick;
-        refreshDrable();
+        refreshDrawable();
     }
 
     @Override
